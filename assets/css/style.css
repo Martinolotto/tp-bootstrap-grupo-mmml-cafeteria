@@ -11,6 +11,7 @@ body {
     background-color: #fcf5e5;
 }
 
+
 /* HEADER */
 .cabecera-estilo {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
@@ -29,3 +30,4 @@ footer {
     color: #ffc107 !important;
     transition: 0.3s;
 }
+
