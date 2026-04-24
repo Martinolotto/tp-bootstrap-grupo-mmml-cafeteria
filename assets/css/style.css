@@ -10,6 +10,10 @@ PALETA DE COLORES:
 body {
     background-color: #fcf5e5;
 }
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
 
 /* HEADER */
@@ -34,10 +38,19 @@ footer {
 .fotos-feat{
     max-width: 450px;
     height: auto;
-    max-width: 400px;
 }
 
-/* SECCIÓN: CARRUSEL DE MENÚ */
+.featurette-heading {
+    font-family: 'Playfair Display', serif;
+    color: #3e2723;
+    font-size: 2.5rem;
+}
+.text-body-secondary {
+    font-size: 1.8rem;
+    display: block; /* Para que el subtítulo baje y no se pegue */
+    margin-bottom: 15px;
+}
+/* CARRUSEL DE MENÚ */
 #carouselExampleInterval {
     max-width:900px;
     margin: 0 auto;   
@@ -50,5 +63,13 @@ footer {
 
 #carouselExampleInterval img {
     height: 400px; 
-    object-fit: cover; /* Recordá: esto evita que se deformen */
+    object-fit: cover; /* evita que se deformen */
+}
+
+/*TITULO PRINCIPAL*/
+.titulo-bienvenida h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    color: #3e2723;
+    margin-top: 50px;
 }
