@@ -1,0 +1,20 @@
+/* a toda la pagina*/
+body {
+    background-color: #fcf5e5;
+}
+
+/* HEADER */
+.cabecera-estilo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                      url('../img/photo-1495474472287-4d71bcdd2085.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* FOOTER */
+.pie-pagina a:hover {
+    color: #ffc107 !important;
+    transition: 0.3s;
+}
