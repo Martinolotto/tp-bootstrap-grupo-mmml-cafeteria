@@ -1,0 +1,76 @@
+/*
+PALETA DE COLORES:
+#2c1e1a
+#ffc107 
+#fcf5e5
+*/
+
+/* ============================================
+   PÁGINA PRODUCTOS — menu.css
+   ============================================ */
+
+/* --- Título principal de la página --- */
+.productos-titulo {
+  font-size: 1.8rem;
+  text-align: center;
+  color: #2c1e1a;
+  margin-bottom: 0.5rem;
+}
+
+/* --- Subtítulo --- */
+.productos-subtitulo {
+  text-align: center;
+  color: #2c1e1a;
+  opacity: 0.7;
+  margin-bottom: 3rem;
+}
+
+/* --- Títulos de cada sección --- */
+.seccion-titulo {
+  color: #2c1e1a;
+  border-bottom: 3px solid #ffc107;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  font-size: 1.3rem;
+}
+
+/* --- Tarjetas de productos --- */
+.card {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  border-top: 4px solid #ffc107;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(44, 30, 26, 0.15);
+}
+
+.card h4 {
+  color: #2c1e1a;
+  font-weight: 700;
+}
+
+.card p {
+  color: #2c1e1a;
+  opacity: 0.75;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+/* --- Precio --- */
+.precio {
+  color: #ffc107;
+  font-size: 1.2rem;
+  font-weight: 700;
+  opacity: 1 !important;
+  margin-top: 0.5rem !important;
+}
+
+/* --- Separación entre secciones --- */
+.seccion-productos {
+  margin-bottom: 3.5rem;
+}
