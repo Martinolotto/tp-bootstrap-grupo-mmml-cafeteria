@@ -1,3 +1,11 @@
+/*
+PALETA DE COLORES:
+#2c1e1a
+#ffc107 
+#fcf5e5
+*/
+
+
 /* a toda la pagina*/
 body {
     background-color: #fcf5e5;
@@ -14,6 +22,9 @@ body {
 }
 
 /* FOOTER */
+footer {
+    background-color:#2c1e1a;
+}
 .pie-pagina a:hover {
     color: #ffc107 !important;
     transition: 0.3s;
