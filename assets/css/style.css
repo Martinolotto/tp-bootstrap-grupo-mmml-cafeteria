@@ -30,4 +30,25 @@ footer {
     color: #ffc107 !important;
     transition: 0.3s;
 }
+/*estilos featurette*/
+.fotos-feat{
+    max-width: 450px;
+    height: auto;
+    max-width: 400px;
+}
 
+/* SECCIÓN: CARRUSEL DE MENÚ */
+#carouselExampleInterval {
+    max-width:900px;
+    margin: 0 auto;   
+    border-radius: 15px; 
+    overflow: hidden;    /* Para que las fotos redondeen */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1); 
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+#carouselExampleInterval img {
+    height: 400px; 
+    object-fit: cover; /* Recordá: esto evita que se deformen */
+}
